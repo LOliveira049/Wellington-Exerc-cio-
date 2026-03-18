@@ -1,0 +1,7 @@
+altura minima 
+altura = float(input("Altura: "))
+
+if altura >= 1.5:
+    print("Pode entrar")
+else:
+    print("Não pode entrar")
