@@ -1,6 +1,7 @@
-preco = float(input("Preço: "))
+n1 = float(input("Digite o primeiro número: "))
+n2 = float(input("Digite o segundo número: "))
 
-if preco > 100:
-    preco *= 0.9
-
-print("Valor final:", preco)
+if n1 > n2:
+    print("Maior:", n1)
+else:
+    print("Maior:", n2)
