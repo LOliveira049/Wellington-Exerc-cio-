@@ -1,0 +1,8 @@
+jogo de adivinhação 
+numero_secreto = 10
+palpite = int(input("Digite seu palpite: "))
+
+if palpite == numero_secreto or palpite == numero_secreto + 1 or palpite == numero_secreto - 1:
+    print("Você venceu!")
+else:
+    print("Tente novamente!")
