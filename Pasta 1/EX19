@@ -1,0 +1,8 @@
+entrada da festa
+idade = int(input("Idade: "))
+acompanhado = input("Acompanhado dos pais? (s/n): ")
+
+if idade >= 18 or acompanhado == "s":
+    print("Entrada permitida")
+else:
+    print("Entrada negada")
