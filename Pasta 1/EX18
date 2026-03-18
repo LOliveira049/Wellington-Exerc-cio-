@@ -1,0 +1,11 @@
+votação
+idade = int(input("Idade: "))
+titulo = input("Título válido (s/n): ")
+
+if idade >= 16:
+    if titulo == "s":
+        print("Pode votar")
+    else:
+        print("Título inválido")
+else:
+    print("Não pode votar")
