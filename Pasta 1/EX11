@@ -1,0 +1,12 @@
+11
+idade = int(input("Idade: "))
+categoria = input("Categoria (juvenil/adulto/veterano): ")
+
+if categoria == "juvenil" and idade <= 17:
+    print("Classificado como Juvenil")
+elif categoria == "adulto" and 18 <= idade <= 39:
+    print("Classificado como Adulto")
+elif categoria == "veterano" and idade >= 40:
+    print("Classificado como Veterano")
+else:
+    print("Categoria incompatível com idade")
