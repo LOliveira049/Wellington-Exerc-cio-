@@ -1,0 +1,8 @@
+doação de sangue 
+idade = int(input("Idade: "))
+peso = float(input("Peso: "))
+
+if 18 <= idade <= 65 and peso > 50:
+    print("Pode doar sangue")
+else:
+    print("Não pode doar")
