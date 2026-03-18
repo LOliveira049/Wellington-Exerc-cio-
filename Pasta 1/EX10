@@ -1,0 +1,18 @@
+10
+saldo = 1000
+
+op = input("Digite saque ou deposito: ")
+
+if op == "saque":
+    valor = float(input("Valor: "))
+    if valor <= saldo:
+        saldo -= valor
+        print("Saque realizado. Saldo:", saldo)
+    else:
+        print("Saldo insuficiente")
+elif op == "deposito":
+    valor = float(input("Valor: "))
+    saldo += valor
+    print("Depósito realizado. Saldo:", saldo)
+else:
+    print("Operação inválida")
