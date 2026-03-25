@@ -1,0 +1,18 @@
+user = input(f"Insira seu nome de úsuario: ")
+print(f"Bem vindo(a), {user}.")
+saldo = 0
+while True:
+    print (f"Saldo: {saldo}")
+    print(f"Deseja sacar ou depositar?")
+    escolha = float(input(f"Escolha (1) para sacar e (2) para depositar ou (3) para sair: "))
+    if escolha == 2:
+        deposito = float(input(f"Insira o valor do deposito: "))
+        saldo = saldo + deposito
+    if escolha == 1:
+        saque = float(input("Insira o valor do saque: "))
+        if saque > saldo:
+            print(f"Saldo insuficiente.")
+        elif saque <= saldo:
+            saldo = saldo - saque
+    if escolha == 3:
+        break
