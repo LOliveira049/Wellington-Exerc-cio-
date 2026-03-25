@@ -1,0 +1,6 @@
+presenca = int(input(f"o aluno veio quantos dias?"))
+nota = int(input(f"qual a nota do aluno?"))
+if presenca >= 150 and nota >= 6:
+    print(f"Aluno aprovado")
+else:
+    print(f"reprovado")
