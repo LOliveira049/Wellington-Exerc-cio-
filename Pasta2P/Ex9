@@ -1,0 +1,7 @@
+print("Vai comprar algo com desconto?")
+valor = float(input(f"Qual o valor do produto? "))
+desconto = float(input(f"Qual o desconto do produto? "))
+perdesconto = desconto / 100
+descfinal = valor * perdesconto
+total = valor - descfinal
+print(f"O valor final do seu produto é de R${total:.2f}")
