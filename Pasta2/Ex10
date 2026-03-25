@@ -1,0 +1,17 @@
+dia = int(input(f"Um dia de 1 á 7: "))
+if dia == 1:
+    print(f"talvez hj seja segunda")
+elif dia == 2:
+    print(f"talvez hj seja terça")
+elif dia == 3:
+    print(f"talvez hj seja quarta")
+elif dia == 4:
+    print(f"talvez hj seja quinta")
+elif dia == 5:
+    print(f"talvez hj seja sexta")
+elif dia == 6:
+    print(f"talvez hj seja sábado")
+elif dia == 7:
+    print(f"talvez hj seja domingo")
+else:
+    print(f"erro")
