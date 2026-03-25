@@ -1,0 +1,23 @@
+print("Quer saber se você está no peso ideal?")
+peso = float(input(f"Insira o seu peso (em kilos): "))
+altura = float(input(f"Insira a sua altura (em centimetros): "))
+alturacm = altura / 100
+imc = peso / (alturacm ** 2)
+if imc < 16:
+    print(f"Magreza grave.")
+elif imc <= 16 and imc <17:
+    print(f"Magreza moderada.")
+elif imc >= 17 and imc <18.5:
+    print(f"Magreza leve.")
+elif imc >= 18.5 and imc <25:
+    print(f"Peso ideal.")
+elif imc >= 25 and imc <30:
+    print(f"Sobrepeso.")
+elif imc >= 30 and imc <35:
+    print(f"Obesidade Grau I.")
+elif imc >= 35 and imc <40:
+    print(f"Obesidade Grau II (severa).")
+elif imc >= 40:
+    print(f"Obesidade Grau III (mórbida).")
+else:
+    print(f"Erro, tente novamente.")
