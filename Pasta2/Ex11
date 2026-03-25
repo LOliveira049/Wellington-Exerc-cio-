@@ -1,0 +1,10 @@
+print("Criar Conta")
+user = str(input(f"Escolha um nome de úsuario: "))
+senha = str(input(f"Crie uma senha: "))
+print(f"Login")
+luser = str(input(f"Nome de úsuario: "))
+lsenha = str(input(f"Digite sua senha: "))
+if luser == user and lsenha == senha:
+    print(f"Bem-Vindo(a), {user}.")
+else:
+    print(f"Úsuario ou senha incorreta")
