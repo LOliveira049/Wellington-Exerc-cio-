@@ -1,0 +1,10 @@
+print(f"vai pagar a vista ou parcelado?")
+print(f"1 = a vista")
+print(f"2 = parcelado")
+vop = int(input(f"como vai ser: "))
+if vop == 1:
+    print(f"desconto de 5%")
+elif vop == 2:
+    print("juros de 3%")
+else:
+    print(f"erro")
