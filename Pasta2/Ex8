@@ -1,0 +1,11 @@
+mes = int(input(f"que mês estamos? coloque em numero:"))
+if mes <4:
+    print (f"é verão")
+elif mes <7:
+    print(f"é outono")
+elif mes <10:
+    print (f"é inverno")
+elif mes <13:
+    print(f"é primavera")
+else:
+    print(f"apapapi apapapa")
