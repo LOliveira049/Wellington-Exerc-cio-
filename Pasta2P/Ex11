@@ -1,0 +1,12 @@
+print("Juvenil, adulto ou veterano?")
+idade = int(input(f"Digite a idade dp jogador: "))
+if idade <= 19:
+    print(f"Juvenil")
+elif idade >= 20 and idade <35:
+    print(f"Adulto")
+elif idade >= 35 and idade <41:
+    print(f"Veterano")
+elif idade >= 41:
+    print(f"CR7?")
+else:
+    print(f"Erro, tente novemente.")
