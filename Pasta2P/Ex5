@@ -1,0 +1,7 @@
+print (f"Quer saber se um número é par ou ímpar?")
+n = int(input(f"Escolha um número: "))
+r = n / 2
+if n % 2 == 0:
+    print(f"O número é par")
+else:
+    print(f"O número é impar")
