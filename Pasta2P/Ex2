@@ -1,0 +1,12 @@
+print("Qual a sua idade?")
+idade = int(input(f"Digite aqui: "))
+if idade < 0:
+    print(f"Idade negativa?")
+elif idade <= 17:
+    print(f"Você é ainda é menor de idade")
+elif idade <65 >= 18:
+    print(f"Você é maior de idade")
+elif idade <120 >= 65:
+    print(f"Já tá véio ein?")
+elif idade >= 120:
+    print(f"Tá vivo?")
