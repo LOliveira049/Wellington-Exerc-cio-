@@ -1,0 +1,5 @@
+n = int(input(f"digite sua altura em cm: "))
+if n > 150:
+    print(f"Pode entrar")
+else:
+    print(f"você é baixo demais")
